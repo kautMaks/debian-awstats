@@ -1,0 +1,4 @@
+# There is no gpg signature (and most likely newer be)
+awstats: debian-watch-may-check-gpg-signature
+# Yes, we need this:
+awstats: source-contains-prebuilt-java-object wwwroot/classes/awgraphapplet.jar

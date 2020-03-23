@@ -1,0 +1,223 @@
+Description: Removed google plus js (privacy breach)
+Author: Sergey B Kirpichev <skirpichev@gmail.com>
+Forwarded: no
+
+---
+ docs/awstats_benchmark.html          |    2 --
+ docs/awstats_compare.html            |    2 --
+ docs/awstats_config.html             |    2 --
+ docs/awstats_contrib.html            |    2 --
+ docs/awstats_dev_plugins.html        |    2 --
+ docs/awstats_dev_plugins_graphs.html |    2 --
+ docs/awstats_dev_plugins_hooks.html  |    2 --
+ docs/awstats_dolibarr.html           |    2 --
+ docs/awstats_extra.html              |    2 --
+ docs/awstats_faq.html                |    2 --
+ docs/awstats_glossary.html           |    2 --
+ docs/awstats_license.html            |    2 --
+ docs/awstats_security.html           |    2 --
+ docs/awstats_setup.html              |    2 --
+ docs/awstats_tools.html              |    2 --
+ docs/awstats_upgrade.html            |    2 --
+ docs/awstats_webmin.html             |    2 --
+ docs/awstats_what.html               |    2 --
+ 18 files changed, 36 deletions(-)
+
+--- a/docs/awstats_benchmark.html
++++ b/docs/awstats_benchmark.html
+@@ -175,8 +175,6 @@ For example, it seems that the "use64bit
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_compare.html
++++ b/docs/awstats_compare.html
+@@ -728,8 +728,6 @@ format). </font>
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_config.html
++++ b/docs/awstats_config.html
+@@ -1851,8 +1851,6 @@ all ExtraSection...X directives and how
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_contrib.html
++++ b/docs/awstats_contrib.html
+@@ -422,8 +422,6 @@ Special thanks goes to the following spo
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_dev_plugins.html
++++ b/docs/awstats_dev_plugins.html
+@@ -174,8 +174,6 @@ numbers for easier reading.<br>
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_dev_plugins_graphs.html
++++ b/docs/awstats_dev_plugins_graphs.html
+@@ -200,8 +200,6 @@ which data appears in the associated arr
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_dev_plugins_hooks.html
++++ b/docs/awstats_dev_plugins_hooks.html
+@@ -384,8 +384,6 @@ total or averages<br>
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_dolibarr.html
++++ b/docs/awstats_dolibarr.html
+@@ -52,8 +52,6 @@ This is links to have more informations:
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_extra.html
++++ b/docs/awstats_extra.html
+@@ -348,8 +348,6 @@ Return to <a href="#examples">examples</
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_faq.html
++++ b/docs/awstats_faq.html
+@@ -1720,8 +1720,6 @@ SkipFiles="REGEX[^\/default\.ida] REGEX[
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_glossary.html
++++ b/docs/awstats_glossary.html
+@@ -799,8 +799,6 @@ anti-spam system on the mail server.</fo
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_license.html
++++ b/docs/awstats_license.html
+@@ -52,8 +52,6 @@ So you must follow the line "Free softwa
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_security.html
++++ b/docs/awstats_security.html
+@@ -148,8 +148,6 @@ systems security features. Just use the
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_setup.html
++++ b/docs/awstats_setup.html
+@@ -582,8 +582,6 @@ click on the link "Update now".<br>
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_tools.html
++++ b/docs/awstats_tools.html
+@@ -202,8 +202,6 @@ message-id=&lt;20030905131913.EOVH11393.
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_upgrade.html
++++ b/docs/awstats_upgrade.html
+@@ -128,8 +128,6 @@ behavior.<br>
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_webmin.html
++++ b/docs/awstats_webmin.html
+@@ -85,8 +85,6 @@ In most cases it must be <i>/etc/awstats
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+--- a/docs/awstats_what.html
++++ b/docs/awstats_what.html
+@@ -194,8 +194,6 @@ examples of supported OS and Web servers
+ <!-- google plus -->
+ <span style="color: #bbb; font-weight: normal;">Article written by <a href="https://plus.google.com/+LaurentDestailleur-Open-Source-Expert?rel=author" rel="author" style="color: #ccc; font-weight: normal;">Laurent Destailleur</a>.</span><br>
+ <br>
+-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+-<g:plusone></g:plusone>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

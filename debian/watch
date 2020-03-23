@@ -1,0 +1,5 @@
+version=3
+# use qa.debian.org redirector; see man uscan
+opts=dversionmangle=s/.dfsg//,uversionmangle=s/7\.(\d)/7.$1/ \
+  http://sf.net/awstats/awstats-(.*).tar.gz debian \
+  debian/orig-tar.sh

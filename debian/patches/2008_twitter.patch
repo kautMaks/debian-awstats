@@ -1,0 +1,205 @@
+Description: Removed twitter js (privacy breach)
+Author: Sergey B Kirpichev <skirpichev@gmail.com>
+Forwarded: no
+
+---
+ docs/awstats_benchmark.html          |    1 -
+ docs/awstats_compare.html            |    1 -
+ docs/awstats_config.html             |    1 -
+ docs/awstats_contrib.html            |    1 -
+ docs/awstats_dev_plugins.html        |    1 -
+ docs/awstats_dev_plugins_graphs.html |    1 -
+ docs/awstats_dev_plugins_hooks.html  |    1 -
+ docs/awstats_dolibarr.html           |    1 -
+ docs/awstats_extra.html              |    1 -
+ docs/awstats_faq.html                |    1 -
+ docs/awstats_glossary.html           |    1 -
+ docs/awstats_license.html            |    1 -
+ docs/awstats_security.html           |    1 -
+ docs/awstats_setup.html              |    1 -
+ docs/awstats_tools.html              |    1 -
+ docs/awstats_upgrade.html            |    1 -
+ docs/awstats_webmin.html             |    1 -
+ docs/awstats_what.html               |    1 -
+ 18 files changed, 18 deletions(-)
+
+--- a/docs/awstats_benchmark.html
++++ b/docs/awstats_benchmark.html
+@@ -177,7 +177,6 @@ For example, it seems that the "use64bit
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_compare.html
++++ b/docs/awstats_compare.html
+@@ -730,7 +730,6 @@ format). </font>
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <br>
+ <!-- Link from 2016-05-11 to 2017-05-11 -->
+--- a/docs/awstats_config.html
++++ b/docs/awstats_config.html
+@@ -1853,7 +1853,6 @@ all ExtraSection...X directives and how
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_contrib.html
++++ b/docs/awstats_contrib.html
+@@ -424,7 +424,6 @@ Special thanks goes to the following spo
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_dev_plugins.html
++++ b/docs/awstats_dev_plugins.html
+@@ -176,7 +176,6 @@ numbers for easier reading.<br>
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_dev_plugins_graphs.html
++++ b/docs/awstats_dev_plugins_graphs.html
+@@ -202,7 +202,6 @@ which data appears in the associated arr
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_dev_plugins_hooks.html
++++ b/docs/awstats_dev_plugins_hooks.html
+@@ -386,7 +386,6 @@ total or averages<br>
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_dolibarr.html
++++ b/docs/awstats_dolibarr.html
+@@ -54,7 +54,6 @@ This is links to have more informations:
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_extra.html
++++ b/docs/awstats_extra.html
+@@ -350,7 +350,6 @@ Return to <a href="#examples">examples</
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_faq.html
++++ b/docs/awstats_faq.html
+@@ -1722,7 +1722,6 @@ SkipFiles="REGEX[^\/default\.ida] REGEX[
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_glossary.html
++++ b/docs/awstats_glossary.html
+@@ -801,7 +801,6 @@ anti-spam system on the mail server.</fo
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_license.html
++++ b/docs/awstats_license.html
+@@ -54,7 +54,6 @@ So you must follow the line "Free softwa
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_security.html
++++ b/docs/awstats_security.html
+@@ -150,7 +150,6 @@ systems security features. Just use the
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_setup.html
++++ b/docs/awstats_setup.html
+@@ -584,7 +584,6 @@ click on the link "Update now".<br>
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_tools.html
++++ b/docs/awstats_tools.html
+@@ -204,7 +204,6 @@ message-id=&lt;20030905131913.EOVH11393.
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_upgrade.html
++++ b/docs/awstats_upgrade.html
+@@ -130,7 +130,6 @@ behavior.<br>
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_webmin.html
++++ b/docs/awstats_webmin.html
+@@ -87,7 +87,6 @@ In most cases it must be <i>/etc/awstats
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 
+--- a/docs/awstats_what.html
++++ b/docs/awstats_what.html
+@@ -196,7 +196,6 @@ examples of supported OS and Web servers
+ <br>
+ <!-- twitter -->
+ <a href="https://twitter.com/awstats_project" class="twitter-follow-button" data-show-count="false">Follow @awstats_project</a>
+-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ </div>
+ <!-- END_SOCIAL_NETWORKS -->
+ 

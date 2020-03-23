@@ -1,0 +1,34 @@
+Description: Disable nested includes warnings for Perl < 5.6.
+Author: Nick Leverton <nick@leverton.org>
+Bug-Debian: http://bugs.debian.org/432096
+Bug-Debian: http://bugs.debian.org/440035
+Bug-Debian: http://bugs.debian.org/519319
+Forwarded: https://sourceforge.net/p/awstats/bugs/907
+
+---
+ tools/awstats_buildstaticpages.pl |    2 +-
+ wwwroot/cgi-bin/awstats.pl        |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+--- a/wwwroot/cgi-bin/awstats.pl
++++ b/wwwroot/cgi-bin/awstats.pl
+@@ -1895,7 +1895,7 @@ sub Parse_Config {
+ 					$includeFile = "$1$includeFile";
+ 				}
+ 			}
+-			if ( $level > 1 ) {
++			if ( $level > 1 && $^V lt v5.6.0 ) {
+ 				warning(
+ "Warning: Perl versions before 5.6 cannot handle nested includes"
+ 				);
+--- a/tools/awstats_buildstaticpages.pl
++++ b/tools/awstats_buildstaticpages.pl
+@@ -183,7 +183,7 @@ sub Parse_Config {
+ 			    # Correct relative include files
+ 				if ($FileConfig =~ /^(.*[\\\/])[^\\\/]*$/) { $includeFile = "$1$includeFile"; }
+ 			}
+-			if ($level > 1) {
++			if ( $level > 1 && $^V lt v5.6.0 ) {
+ 				warning("Warning: Perl versions before 5.6 cannot handle nested includes");
+ 				next;
+ 			}
